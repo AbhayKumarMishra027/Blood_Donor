@@ -1,16 +1,70 @@
-# React + Vite
+# 🩸 Blood Donor Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React web application that helps users find blood donors based on blood group and city.
+Users can view donor availability and send a help request with a single click.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://AbhayKumarMishra027.github.io/Blood_Donor/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* Fetches donor data from a public API
+* Random blood group and availability simulation
+* Filter donors by blood group
+* Search donors by city
+* Sorts available donors first
+* Request help button with persistent state
+* Data stored using LocalStorage
+* Responsive UI for desktop and mobile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* React (useState, useEffect)
+* Vite
+* CSS (Flexbox + Grid + Media Queries)
+* Git & GitHub Pages Deployment
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AbhayKumarMishra027/Blood_Donor.git
+cd Blood_Donor
+npm install
+npm run dev
+```
+
+---
+
+## 📚 What I Learned
+
+* Managing component state and derived state
+* Fetching and transforming API data
+* Conditional rendering and list mapping
+* Persisting UI state using LocalStorage
+* Building responsive layouts
+* Deploying React apps using GitHub Pages
+
+---
+
+## 📌 Future Improvements
+
+* Real donor backend integration
+* Authentication for request tracking
+* Dark mode theme
+* Advanced filters and sorting
+* Better accessibility support
+
+---
+
+## 👨‍💻 Author
+
+Abhay Kumar
